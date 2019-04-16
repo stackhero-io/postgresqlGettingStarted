@@ -1,0 +1,16 @@
+{
+  "name": "getting-started-postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Stackhero",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "faker": "^4.1.0",
+    "pg": "^7.9.0"
+  }
+}

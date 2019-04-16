@@ -2,7 +2,7 @@
 
 ## How to use
 
-This example will connect to your PostgreSQL server, create the database `stackherotest` and the table `users` and fill it with 1000 fake users datas.
+This example will connect to your PostgreSQL server, create the database `stackherotest` and the table `users` and fill it with 100 fake users datas.
 
 
 1. Clone this repository: `git clone https://github.com/stackhero-io/postgresqlGettingStarted && cd postgresqlGettingStarted`

@@ -15,7 +15,10 @@ const faker = require('faker');
     host: process.env.POSTGRESQL_HOST,
     user: process.env.POSTGRESQL_USERNAME,
     password: process.env.POSTGRESQL_PASSWORD,
-    database: 'admin'
+    database: 'admin',
+    ssl: {
+      rejectUnauthorized: true
+    }
   });
 
   await pg.connect();
